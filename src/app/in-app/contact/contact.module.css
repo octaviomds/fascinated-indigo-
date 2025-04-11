@@ -1,0 +1,50 @@
+.row-layout {
+  display: flex;
+}
+.contact-container {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  height: 100%;
+}
+.group {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 1rem;
+  overflow: hidden;
+}
+.navbar {
+  height: max-content;
+  min-width: min-content;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.icon-button {
+  --ig-size: var(--ig-size-small);
+}
+.h6 {
+  margin: 0;
+  flex-shrink: 0;
+}
+.image {
+  object-fit: cover;
+  left: 33px;
+  top: 77.09369024856592px;
+  position: absolute;
+  width: 703px;
+  height: 376px;
+  min-width: 0;
+  min-height: 0;
+  max-width: 703px;
+  max-height: 376px;
+}
+.textarea {
+  left: 80px;
+  top: 545.1625239005737px;
+  position: absolute;
+  width: 1189px;
+  height: max-content;
+  min-width: min-content;
+  max-width: 1189px;
+}

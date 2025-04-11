@@ -1,0 +1,49 @@
+.row-layout {
+  display: flex;
+}
+.chauffeur-container {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  height: 100%;
+}
+.group {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 1rem;
+  overflow: hidden;
+}
+.navbar {
+  height: max-content;
+  min-width: min-content;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.icon-button {
+  --ig-size: var(--ig-size-small);
+}
+.h6 {
+  margin: 0;
+  flex-shrink: 0;
+}
+.text {
+  height: max-content;
+  min-width: min-content;
+}
+.calendar {
+  left: 11px;
+  top: 52.31357552581269px;
+  position: absolute;
+  width: 1422px;
+  height: max-content;
+  min-width: max-content;
+  max-width: 1422px;
+}
+.textarea {
+  left: 134.9139579349904px;
+  top: 707.6099426386234px;
+  position: absolute;
+  height: max-content;
+  min-width: min-content;
+}

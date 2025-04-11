@@ -1,0 +1,124 @@
+.row-layout {
+  display: flex;
+}
+.sign-up-container {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  height: 100%;
+}
+.left {
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.group {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 40px;
+  position: relative;
+  margin: 64px;
+  min-width: 320px;
+  min-height: 50px;
+  max-width: 480px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_1 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.group_2 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.group_3 {
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  min-width: 50px;
+}
+.group_4 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 32px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.group_5 {
+  border-color: hsla(var(--ig-gray-300));
+  border-width: 1px 0px 0px;
+  border-style: solid;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+}
+.right {
+  background-color: transparent;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.h5 {
+  height: max-content;
+  min-width: min-content;
+}
+.text {
+  color: hsla(var(--ig-gray-700));
+  height: max-content;
+  min-width: min-content;
+}
+.image {
+  object-fit: contain;
+  min-width: 0;
+  min-height: 0;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.h5_1 {
+  left: 132.16061185468453px;
+  top: 88.10707456978966px;
+  position: absolute;
+  height: max-content;
+  min-width: min-content;
+}
+.input {
+  height: max-content;
+  min-width: min-content;
+}
+.checkbox {
+  width: max-content;
+  height: max-content;
+}
+.button {
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+}
+.button_1::part(base) {
+  color: hsla(var(--ig-gray-900));
+}
